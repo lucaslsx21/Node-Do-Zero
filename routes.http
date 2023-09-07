@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-aapj.onrender.com/videos
 Content-type: application/json
 
 {
@@ -9,19 +9,19 @@ Content-type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-aapj.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/21b0cfe0-94f9-4cad-adf5-94008e48adea
+PUT https://node-do-zero-aapj.onrender.com/videos/d5022c13-811d-4e22-b06f-fb2b65aa7a43
 Content-type: application/json
 
 {
-    "title": "Node.js",
+    "title": "Video Node 01",
     "description": "Primeiro video",
     "duration": 180
 }
 
 ###
 
-DELETE http://localhost:3333/videos/21b0cfe0-94f9-4cad-adf5-94008e48adea
+DELETE https://node-do-zero-aapj.onrender.com/videos/d5022c13-811d-4e22-b06f-fb2b65aa7a43
